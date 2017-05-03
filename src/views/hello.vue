@@ -26,7 +26,7 @@
       }
     },
     mounted () {
-      this.$store.commit('message', '欢迎使用 vue！');
+      this.$store.commit('message', '欢迎使用');
       this.getContent();
     },
 
